@@ -11,7 +11,7 @@
     --secondary-color: #FB8500;
     --accents-color: #8ECAE6;
     --navFooter-color: #011723;
-    
+
 }
 
 
@@ -130,7 +130,10 @@ nav ul li a {
 main{
     text-align: center;
     color: white;
-    margin: 198px 64px;
+    /* margin: 198px 64px; */   
+    margin-top: 198px;
+    margin-right: 64px;
+    margin-left: 64px;
 }
 .btn {
     display: inline-block;
@@ -160,7 +163,7 @@ aside{
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    align-items: center;
 }
 
 .projects {
@@ -194,7 +197,7 @@ aside{
     
     /* box-shadow: 0px 4px 40px -3px #ffffff03; */
     /* background-color: var(--navFooter-color); */ 
-    bottom: 0;
+     bottom: 0;
     position: absolute;
     width: 100%;
 
